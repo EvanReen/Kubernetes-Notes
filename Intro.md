@@ -22,3 +22,4 @@ There is a number of terms you will need to know before you dive into Kubernetes
   - The entire guest operating system to interact with the applications
                                                                                 
 ## Architecture of Kubernetes Cluster 
+![image](https://user-images.githubusercontent.com/74310324/172833432-9418974f-d2db-444f-9e92-69a8fc28df3d.png)
