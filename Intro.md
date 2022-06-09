@@ -37,3 +37,19 @@ There is a number of terms you will need to know before you dive into Kubernetes
 - a simple distributed key value store. Kubernetes uses etcd as its database + stores all cluster data here.
 ###### kubectl
 - command line interface for kubernetes. 
+###### Work node
+- where your applications operate
+- They communicate back with the master node.
+###### Kubelet
+- an agent that communicates with the API server to see if pods have been assigned to the nodes.
+- executes pod containers via the container engine.
+- aware of pod and node states. 
+- responds back to the master.
+###### Kube-proxy 
+- a network proxy and load balancer for the service, on a single worker node.
+- it handles the network routing for TCP and UDP packets and performs connection forwarding.
+###### Docker 
+- works together with Kubelet to run containers on the node.
+- containers of an application are tightly coupled together in a pod. 
+- kubelet process communciates with the pods to check on state and health.
+- The kube-proxy routes any packetst the pods from other resources that might be wanting to communicate with them. 
