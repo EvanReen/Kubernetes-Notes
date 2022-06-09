@@ -13,4 +13,9 @@ There is a number of terms you will need to know before you dive into Kubernetes
 - Containerization is an approach of running applications on an OS (Operating System) such that the application is isolated from the rest of the system. 
 
 ### Difference between a container and a virtual machine (VM)
- 
+  ####Container                                                                   #### Virtual Machine (VM)
+  - includes the application + all of its dependencies                            - includes one or many applications
+  - shares the Kernel with other Containers                                       - The neccesary binaries + dependencies
+                                                                                  - The entire guest operating system to interact with the applications
+
+### Architecture of Kubernetes Cluster 
