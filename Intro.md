@@ -22,4 +22,18 @@ There is a number of terms you will need to know before you dive into Kubernetes
   - The entire guest operating system to interact with the applications
                                                                                 
 ## Architecture of Kubernetes Cluster 
+
 ![image](https://user-images.githubusercontent.com/74310324/172833432-9418974f-d2db-444f-9e92-69a8fc28df3d.png)
+
+###### Master Node
+- Responsible for the overall management of the Kubernetes Cluster. It has three components that take of communication, scheduling and Controllers.
+###### API server
+- allows you to interact with the Kubernetes API.
+###### Schedular
+- watched created pods, who do not have a Node design yet, and designs the pod to run on a specific node.
+###### Controller Manager
+- runs controllers. These are background threads that run tasks in a cluster.
+###### etcd
+- a simple distributed key value store. Kubernetes uses etcd as its database + stores all cluster data here.
+###### kubectl
+- command line interface for kubernetes. 
