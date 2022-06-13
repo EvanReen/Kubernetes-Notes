@@ -16,10 +16,12 @@ Labels are key/value pairs that are attached to objects like pods, services and 
 Label selectors allows you to identify a set of objects.
 
 ****Types of Selectors****
+
 1: Equality based
 - includes = and !=
 - = : two labels or value of labels should be equal
 - != : the values of the labels should not be equal
+
 2: Set based 
 - IN : A value should be inside a set of defined values. 
 - NOTIN : A value should not be inside a set of defined values.
