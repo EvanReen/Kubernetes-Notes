@@ -1,6 +1,6 @@
 # Nodes + Pods
 
-***Node***
+### Node
 A node serves as a worker machine on a Kubernetes Cluster
 - The node can be a physical computer or a virtual machine (vm)
 
@@ -10,7 +10,7 @@ A node serves as a worker machine on a Kubernetes Cluster
 - A kube-proxy process running 
 - supervisord 
 
-***Pod***
+### Pod
 A pod is the simplest unit you can interact with.
 - it can create, deploy and delete pods and it represents one running process on your cluster.
 - it represents one single unit of deployment. 
